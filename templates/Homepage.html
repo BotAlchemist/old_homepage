@@ -1,0 +1,77 @@
+<html><head><title>HOMEPAGE</title></head>
+<body background=" {{ url_for('static', filename='background.jpg')  }}  ">
+
+<center><img src="{{url_for('static', filename='front/welcome5.gif')}}" width="600" height="300"></center>
+
+<center><a href=" {{ url_for('about') }} "><img src="{{url_for('static', filename='front/profile.jpg')}}" border=5 width="300" height="300"></a><br>
+
+<a href=" {{ url_for('about') }} "><center><font color="purple"><h1 style="font-family:Kristen ITC" >ABOUT ADMIN </h1></font></center></br></a>
+
+<center><img src=" {{url_for('static', filename='gif/narutosasuke.gif')}}"></center>
+
+
+<center><h1 style="font-family:Kristen ITC"><font color="#ooccoo"><b>ABOUT ADMIN</b></font></h1></center>
+<center><h1 style="font-family:Kristen ITC"><font color="purple"><u><b>GALLERY<b></u></font></h1></center>
+<p><center><h4><font color="red">(Click on icons to view the whole gallery)</font></h4></center><p>
+
+<br><br>
+
+<table width=100%>
+<center>
+<tr>
+<td>
+
+
+<a href="{{url_for('draw')  }}"><img src=" {{url_for('static', filename='front/draw2.gif')}}"  border="5" width="200" height="200">
+<h2 style="font-family:Kristen ITC"><font color="red">DRAWINGS</font></h2></a>
+</td>
+
+<td>
+<a href="{{url_for('book')  }}"><img src=" {{url_for('static', filename='front/book3.gif')}}" border="5"  width="200" height="200">
+<h2 style="font-family:Kristen ITC"><font color="red">BOOKS</font></h2></a>
+</td>
+
+
+<td>
+<a href="{{url_for('quotes')  }}"><img src=" {{url_for('static', filename='front/quotes.jpg')}}" border="5" width="200" height="200">
+<h2 style="font-family:Kristen ITC"><font color="red">QUOTES</font></h2></a>
+</td>
+
+</tr>
+</table>
+<br><br><br>
+
+
+<table width=100%>
+<tr>
+<td>
+<a href="{{url_for('manga')  }}"><img src=" {{url_for('static', filename='front/manga.gif')}}" border="5" width="200" height="200">
+<h2 style="font-family:Kristen ITC"><font color="red">MANGA</font></h2></a>
+</td>
+
+
+<td>
+<a href="{{url_for('figures')  }}"><img src=" {{url_for('static', filename='front/joe.jpg')}}" border="5" width="200" height="200">
+<h2 style="font
+-family:Kristen ITC"><font color="red">ACTION FIGURES</font></h2></a>
+</td>
+
+
+<td>
+<a href="{{url_for('tv')  }}"><img src=" {{url_for('static', filename='front/tv.gif')}}" border="5" width="200" height="200">
+<h2 style="font-family:Kristen ITC"><font color="red">TV SHOWS</font></h2></a>
+</td>
+
+</center>
+</table>
+<br>
+<br>
+
+<center><a href="{{url_for('suggest')  }}"><h2 style="font-family:Kristen ITC">GIVE SUGGESTIONS...</h2></a>
+
+
+
+
+
+
+</body></html>

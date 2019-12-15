@@ -1,0 +1,54 @@
+<html><head><title>DRAWINGS</title></head>
+<body background=" {{ url_for('static', filename='background.jpg')  }}  ">
+
+<center><h1 style="font-family:Kristen ITC"><font color="red">DRAWINGS</font></h1></center>
+<center><img src=" {{url_for('static', filename='gif/narutoluffy.gif')}}"></center>
+<table width=100%>
+
+<tr>
+<td>
+<img src=" {{url_for('static', filename='draw/draw1.jpg')}}" border="5" width="300" height="400">
+</td>
+<td>
+<img src="{{url_for('static', filename='draw/draw2.jpg')}}" border="5" width="300" height="400">
+</td>
+<td>
+<img src="{{url_for('static', filename='draw/draw3.jpg')}}" border="5" width="300" height="400">
+</td>
+</tr>
+
+<br>
+
+<tr>
+<td>
+<img src="{{url_for('static', filename='draw/draw4.jpg')}}" border="5" width="300" height="400">
+</td>
+<td>
+<img src="{{url_for('static', filename='draw/draw5.jpg')}}" border="5" width="300" height="400">
+</td>
+<td>
+<img src="{{url_for('static', filename='draw/draw6.jpg')}}" border="5" width="300" height="400">
+</td>
+</tr>
+
+<br>
+
+<tr>
+<td>
+<img src="{{url_for('static', filename='draw/draw7.jpg')}}" border="5" width="300" height="400">
+</td>
+<td>
+<img src="{{url_for('static', filename='draw/draw8.jpg')}}" border="5" width="300" height="400">
+</td>
+<td>
+<img src="{{url_for('static', filename='draw/draw9.jpg')}}" border="5" width="300" height="400">
+</td>
+</tr>
+
+
+</table>
+
+<center><a href="{{url_for('index')  }}"><h3 style="font-family:Kristen ITC">Go to homepage</h3><a></center>
+
+</body>
+</html>

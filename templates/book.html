@@ -1,0 +1,54 @@
+<html><head><title>HOMEPAGE</title></head>
+<body background=" {{ url_for('static', filename='background.jpg')  }}  ">
+
+
+<center><h1 style="font-family:Kristen ITC"><font color="red">BOOKS</font></h1></center>
+
+<center><img src=" {{url_for('static', filename='gif/narutorasen.gif')}}"></center>
+
+<table border=10 width=40%>
+<tr>
+<td>
+<img src=" {{url_for('static', filename='books/book1.jpg')}}" border="5" width="200" height="300">
+</td>
+<td>
+<a href="http://www.amazon.in/Fifth-Horseman-Biological-Disaster-Michael/dp/0312874359/ref=sr_1_13?s=books&ie=UTF8&qid=1415159266&sr=1-13&keywords=the+fifth+horseman"><h3 style="font-family:Kristen ITC">Get Copy</h3></a>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+<img src=" {{url_for('static', filename='books/book2.jpg')}}" border="5" width="200" height="300">
+</td>
+<td>
+<a href="http://www.amazon.in/Vital-Signs-Robin-Cook/dp/0330321471/ref=sr_1_1?s=books&ie=UTF8&qid=1415159341&sr=1-1&keywords=vital+signs+robin+cook"><h3 style="font-family:Kristen ITC">Get Copy</h3></a>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+<img src=" {{url_for('static', filename='books/book3.jpg')}}" border="5" width="200" height="300">
+</td>
+<td>
+<a href="http://www.amazon.in/Fox-Woman-Kij-Johnson/dp/0312854293/ref=sr_1_1?s=books&ie=UTF8&qid=1415159449&sr=1-1&keywords=the+fox+woman+kij+johnson"><h3 style="font-family:Kristen ITC">Get Copy</h3></a>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+<img src=" {{url_for('static', filename='books/book4.jpg')}}" border="5" width="200" height="300">
+</td>
+<td>
+<a href="http://www.amazon.in/Alchemist-Paulo-Coelho/dp/8172234988/ref=sr_1_1?s=books&ie=UTF8&qid=1415159391&sr=1-1&keywords=paulo+coelho+the+alchemist"><h3 style="font-family:Kristen ITC">Get Copy</h3></a>
+</td>
+</tr>
+</table>
+
+<center><a href="{{url_for('index')  }}"><h3 style="font-family:Kristen ITC">Go to homepage</h3><a></center>
+</body></html>
